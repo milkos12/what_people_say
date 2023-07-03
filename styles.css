@@ -1,0 +1,52 @@
+body {
+    background-color: #f6f6fe;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Roboto', sans-serif;
+}
+
+.description h1 {
+    font-weight: 1;
+}
+
+.description h1 strong {
+    font-weight: 800;
+}
+
+.people-say-profile-photo {
+    height: 30px;
+    width: 30px;
+    border-radius: 40px;
+    background-color: #e5e2db;
+}
+
+.card-people-say {
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #ffff;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.people-say-profile {
+    display: grid;
+    grid-template-columns: 30px auto;
+    column-fill: auto;
+    justify-content: baseline;
+    margin-top: 20px;
+    grid-auto-rows: min-content;
+    column-gap: 5px;
+    
+}
+
+.people-say-profile-photo {
+    grid-row: span 2;
+}
+
+.people-say-profile-name, .people-say-profile-profetion {
+    grid-column: 2;
+    font-size: 11px;
+}
+
+.people-say-profile-name {
+    font-weight: 700;
+}
