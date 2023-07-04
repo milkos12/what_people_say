@@ -19,6 +19,16 @@ body {
     background-color: #e5e2db;
 }
 
+/**----card-----*/
+
+.people-say-quotation img{
+    height: 30px;
+}
+
+.people-say-quotation {
+    margin-bottom: 20px;
+}
+
 .card-people-say {
     box-sizing: border-box;
     padding: 20px;
@@ -50,3 +60,38 @@ body {
 .people-say-profile-name {
     font-weight: 700;
 }
+
+
+/*----- table people say--------*/
+
+.people-say {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    gap: 10px;
+}
+
+.card-1 {
+    grid-column: 1;
+    grid-row: 2;
+
+}
+
+.card-2 {
+    grid-column: 2;
+    grid-row: 2;
+    transform: translateY(-100px);
+}
+
+.card-3 , .card-4 {
+    grid-column: 3;
+}
+.card-5 {
+    grid-row: 1;
+}
+
+.card-5, .card-6 {
+    grid-column: 4;
+    transform: translateY(50px);
+}
+
+
