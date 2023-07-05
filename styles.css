@@ -1,7 +1,8 @@
 body {
-    background-color: #f6f6fe;
+    background-color: #e8ebfe;
     font-family: 'Inconsolata', monospace;
     font-family: 'Roboto', sans-serif;
+    padding: 50px 100px;
 }
 
 .description h1 {
@@ -34,7 +35,9 @@ body {
     padding: 20px;
     background-color: #ffff;
     border-radius: 10px;
+    box-shadow: 0 0 5px 1px #e5e2db;
     width: 200px;
+
 }
 
 .people-say-profile {
@@ -93,5 +96,15 @@ body {
     grid-column: 4;
     transform: translateY(50px);
 }
+
+
+.people-say {
+    position: relative;
+    margin-top: -180px;
+    margin-left: 150px;
+    z-index: 10;
+}
+
+
 
 
